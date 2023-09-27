@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.3"
+  },
+  "name": "shopcart-server",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"json-server --watch db.json --port 2020"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vk10082000/shopcart-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vk10082000/shopcart-server/issues"
+  },
+  "homepage": "https://github.com/vk10082000/shopcart-server#readme"
+  ,
+  "engines": {
+    "node": "12.13.1"
+  }
+  
+}
